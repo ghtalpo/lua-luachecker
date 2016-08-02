@@ -1,0 +1,56 @@
+{
+    "name": "lua-luachecker",
+    "displayName": "lua-luachecker",
+    "description": "Luachecker for VS Code",
+    "version": "0.0.1",
+    "publisher": "jjkim",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "categories": [
+        "Linters"
+    ],
+    "activationEvents": [
+        "onLanguage:lua"
+     ],
+    "main": "./out/src/extension",
+    "contributes": {
+        "configuration": {
+            "type": "object",
+            "title": "Lua checker configuration",
+            "properties": {
+                "luachecker.enable": {
+                    "type": "boolean",
+                    "default": true,
+                    "description": "Enable Lua linter"
+                },
+                "luachecker.warnOnSave": {
+                    "type": "boolean",
+                    "default": false,
+                    "description": "Show warning message if there is an error when saving a file"
+                },
+                "luachecker.luacheck": {
+                    "type": "string",
+                    "default": "luacheck",
+                    "description": "Point to luachecker"
+                }
+            }
+        },
+        "commands": [{
+            "command": "extension.doCheck",
+            "title": "luacheck all"
+        },{
+            "command": "extension.sayHello",
+            "title": "Hello World"
+        }]
+    },
+    "scripts": {
+        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "devDependencies": {
+        "typescript": "^1.8.5",
+        "vscode": "^0.11.0"
+    }
+}
