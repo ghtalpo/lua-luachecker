@@ -4,7 +4,7 @@ A simple luacheck extension for [VS Code](https://code.visualstudio.com/).
 
 A mixture of [linter-luacheck](https://github.com/AtomLinter/linter-luacheck) and [vscode-lualinter](https://github.com/dcr30/vscode-lualinter).
 
-![Example animation](https://github.com/ghtalpo/lua-luachecker/out.gif)
+![Example animation](https://github.com/ghtalpo/lua-luachecker/blob/master/out.gif)
 
 ## Requirements
 
