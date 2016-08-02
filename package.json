@@ -4,6 +4,7 @@
     "description": "Luachecker for VS Code",
     "version": "0.0.1",
     "publisher": "jjkim",
+    "icon": "icon.svg",
     "engines": {
         "vscode": "^1.0.0"
     },
