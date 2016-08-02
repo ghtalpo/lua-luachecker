@@ -2,7 +2,7 @@
     "name": "lua-luachecker",
     "displayName": "lua-luachecker",
     "description": "Luachecker for VS Code",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "jjkim",
     "icon": "icon.svg",
     "engines": {
