@@ -2,7 +2,7 @@
     "name": "lua-luachecker",
     "displayName": "lua-luachecker",
     "description": "Luachecker for VS Code",
-    "version": "0.0.2",
+    "version": "0.1.0",
     "publisher": "jjkim",
     "icon": "icon.svg",
     "engines": {
@@ -13,7 +13,7 @@
     ],
     "activationEvents": [
         "onLanguage:lua"
-     ],
+    ],
     "main": "./out/src/extension",
     "contributes": {
         "configuration": {
@@ -47,13 +47,16 @@
                 }
             }
         },
-        "commands": [{
-            "command": "extension.doCheck",
-            "title": "luacheck all"
-        },{
-            "command": "extension.sayHello",
-            "title": "Hello World"
-        }]
+        "commands": [
+            {
+                "command": "extension.doCheck",
+                "title": "luacheck all"
+            },
+            {
+                "command": "extension.sayHello",
+                "title": "Hello World"
+            }
+        ]
     },
     "scripts": {
         "vscode:prepublish": "node ./node_modules/vscode/bin/compile",

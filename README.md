@@ -32,6 +32,10 @@ Initial release
 
 Add --globals and --ignore options for luacheck
 
+### 0.1.0
+
+Nothing but a version number.
+
 ### For more information
 
 * [luacheck](https://github.com/mpeterv/luacheck)
