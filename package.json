@@ -1,8 +1,8 @@
 {
     "name": "lua-luachecker",
     "displayName": "lua-luachecker",
-    "description": "Luachecker for VS Code",
-    "version": "0.1.0",
+    "description": "A simple luacheck extension",
+    "version": "0.1.1",
     "publisher": "jjkim",
     "icon": "icon.svg",
     "engines": {
