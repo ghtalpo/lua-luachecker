@@ -13,7 +13,6 @@ let currentDiagnostic: vscode.Diagnostic;
 function parseDocumentDiagnostics(document: vscode.TextDocument, luacOutput: string) {
     const matches = OUTPUT_REGEXP.exec(luacOutput);
     if (!matches) {
-        vscode.window.showWarningMessage('no match');
         return;
     }
     const message = {
@@ -60,6 +59,16 @@ function lintDocument(document: vscode.TextDocument, warnOnError: Boolean = fals
     let luacheck = luacheckerConfig.get<string>("luacheck");
 
     let cmd = ['--no-color', '--codes', '--ranges', "--filename=" + document.fileName, '-'];
+    let globals = luacheckerConfig.get<string>("globals");
+    if (globals.length > 0) {
+        cmd.push('--globals')
+        cmd.push(globals)
+    }
+    let ignore = luacheckerConfig.get<string>("ignore");
+    if (ignore.length > 0) {
+        cmd.push('--ignore')
+        cmd.push(ignore)
+    }
     // let cmd = ['-'];
     // if (luacheck === "luac") {
     //     cmd = "-p";

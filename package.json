@@ -33,6 +33,16 @@
                     "type": "string",
                     "default": "luacheck",
                     "description": "Point to luachecker"
+                },
+                "luachecker.globals": {
+                    "type": "string",
+                    "default": "luacheck",
+                    "description": "Add more globals names to standard ones, separated by comma, eg jit, bit."
+                },
+                "luachecker.ignore": {
+                    "type": "string",
+                    "default": "luacheck",
+                    "description": "Ignore warnings related to these variables names, separated by comma, eg self, myvar."
                 }
             }
         },
