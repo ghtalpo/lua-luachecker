@@ -2,7 +2,7 @@
     "name": "lua-luachecker",
     "displayName": "lua-luachecker",
     "description": "A simple luacheck extension",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "publisher": "jjkim",
     "icon": "icon.svg",
     "engines": {
