@@ -2,7 +2,7 @@
     "name": "lua-luachecker",
     "displayName": "lua-luachecker",
     "description": "Lint lua with luacheck on the fly",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "publisher": "jjkim",
     "icon": "icon.svg",
     "engines": {
