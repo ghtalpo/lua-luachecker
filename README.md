@@ -22,6 +22,8 @@ This extension contributes the following settings:
 
 ## Known Issues
 
+Does not work flawlessly on GIT tab
+
 ## Release Notes
 
 ### 0.0.1
@@ -32,7 +34,7 @@ Initial release
 
 Add --globals and --ignore options for luacheck
 
-### 0.1.0
+### 0.1.2
 
 Nothing but a version number.
 
@@ -41,5 +43,10 @@ Nothing but a version number.
 * [luacheck](https://github.com/mpeterv/luacheck)
 * [linter-luacheck](https://github.com/AtomLinter/linter-luacheck)
 * [vscode-lualinter](https://github.com/dcr30/vscode-lualinter)
+
+## Contribute
+
+Bugs, ideas and pull requests please go to [ghtalpo/lua-luachecker
+](https://github.com/ghtalpo/lua-luachecker).
 
 **Enjoy!**
