@@ -1,4 +1,4 @@
-# lua-luachecker README
+# lua-luachecker
 
 A simple luacheck extension for [VS Code](https://code.visualstudio.com/).
 
