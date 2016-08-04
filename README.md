@@ -34,7 +34,7 @@ Initial release
 
 Add --globals and --ignore options for luacheck
 
-### 0.1.2
+### 0.1.x
 
 Nothing but a version number.
 

@@ -1,8 +1,8 @@
 {
     "name": "lua-luachecker",
     "displayName": "lua-luachecker",
-    "description": "A simple luacheck extension",
-    "version": "0.1.2",
+    "description": "Lint lua with luacheck on the fly",
+    "version": "0.1.3",
     "publisher": "jjkim",
     "icon": "icon.svg",
     "engines": {
